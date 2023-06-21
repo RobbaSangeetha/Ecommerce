@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Page Layout Example</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #f1f1f1;
+            padding: 20px;
+            text-align: center;
+        }
+
+        footer {
+            background-color: #f1f1f1;
+            padding: 10px;
+            text-align: center;
+        }
+
+        .sidebar {
+            background-color: #f9f9f9;
+            float: left;
+            width: 20%;
+            padding: 20px;
+        }
+
+        .content {
+            margin-left: 20%;
+            padding: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Header</h1>
+    </header>
+
+    <div class="sidebar">
+        <h3>Sidebar</h3>
+        <p>Sidebar content goes here.</p>
+    </div>
+
+    <div class="content">
+        <h2>Main Content</h2>
+        <p>Main content goes here.</p>
+    </div>
+
+    <footer>
+        <p>Footer</p>
+    </footer>
+</body>
+</html>
+
+
